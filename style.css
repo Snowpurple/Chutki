@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: helvetica;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    color: white;
+    padding: 2rem;
+    height: 100%;
+    background: radial-gradient(navy, black);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: url('flower_cursor.png') 16 16, pointer;
+}
+
+img {
+    width: 40vw;
+    border-radius: 2rem;
+}
